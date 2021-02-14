@@ -12,6 +12,9 @@ jobs:
       - name: git clone
         uses: actions/checkout@v2
 
+      - name: cd first-vue-app
+        run: cd first-vue-app
+
       - name: yarn install
         run: yarn install
 
